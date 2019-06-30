@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/sketch.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<a href="#">
+			<img id="logo" alt="logo" src="img/logo.svg" /></a>
+		<a href="#">
+			<img id="logo2" alt="logo2" src="img/logo2.svg" /></a>
+		<nav>
+			<ul>
+				<li><a href='#'> OVER ONS </a></li>
+				<li><a href='#'> LESMATERIAAL </a></li>
+				<li><a href='#'> CONTACT </a></li>
+			</ul>
+		</nav>
+
+		<div class="clear"></div>
+	</header>
+
+	<main>
+		<div class="headerImg">
+			<h1>Van beginner naar expert<br>
+				Het lesmateriaal brengt je verder</h1>
+			<h2>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="wrap-grid" id="playlistWrap">
+			<div class="deelText">
+				<h3>Playlist</h3>
+			</div>
+
+			<div id="accordion">
+				<div class="accordionHeader">
+					<div class="linksBalk">
+						<div>
+								<svg class='pijltje' xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+									<path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+								</svg>
+						</div>
+						<div id="algIntro">
+							<h3>Algemene introductie</h3>
+						</div>
+						<div class="doneAround" id="check1">
+							<img class="check" src="img/done.svg" alt="check">
+						</div>
+					</div>
+					<div class="rechtsBalk">
+							<button id="intro">
+								<h3>INTRO</h3>
+							</button>
+					</div>
+				</div>
+				<div class="wrapPlayer">
+					<video id="player1" class="video-js" data-setup='{"fluid": true}'>
+						<source src="img/small.mp4" type="video/mp4">
+					</video>
+					<h3>
+						Algemene introductie
+					</h3>
+					<button class="buttonC rewind-btn" id="rewind1">
+						<img id="logoRewind" alt="logo" src="img/rewind.svg" />
+					</button>
+					<button class="buttonC player-btn" id="play1">
+						<img id="logoPlay" alt="logo" src="img/play.svg" />
+					</button>
+					<button class="buttonC done-btn" id="done1">
+						<img id="logoDone" alt="logo" src="img/done.svg" />
+					</button>
+			</div>
+
+			<div class="accordionHeader">
+				<div class="linksBalk">
+					<div>
+							<svg class='pijltje' xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+								<path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+							</svg>
+					</div>
+					<div id="algIntro">
+						<h3>Workshop 1: Kleuren met code</h3>
+					</div>
+					<div class="doneAround" id="check2">
+						<img class="check" src="img/done.svg" alt="check">
+					</div>
+				</div>
+				<div class="rechtsBalk">
+						<button class="workshop">
+							<h3>WORKSHOP</h3>
+						</button>
+					<button class="download">
+						<img class="downloadImg" src="img/download.svg" alt="downloads">
+						<h3>DOWNLOADS</h3>
+					</button>
+				</div>
+			</div>
+				<div class="wrapPlayer">
+					<video id="player2" class="video-js" data-setup='{"fluid": true}'>
+						<source src="img/small.mp4" type="video/mp4">
+					</video>
+
+					<button class="buttonC rewind-btn" id="rewind2">
+							<img id="logoRewind" alt="logo" src="img/rewind.svg" />
+						</button>
+						<button class="buttonC player-btn" id="play2">
+							<img id="logoPlay" alt="logo" src="img/play.svg" />
+						</button>
+						<button class="buttonC done-btn" id="done2">
+							<img id="logoDone" alt="logo" src="img/done.svg" />
+						</button>
+					<h3>
+						Workshop 1: Kleuren met code
+					</h3>
+				</div>
+
+			<div class="accordionHeader">
+				<div class="linksBalk">
+					<div>
+							<svg class='pijltje' xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+								<path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+							</svg>
+					</div>
+					<div id="algIntro">
+						<h3>Workshop 2: Vormen maken</h3>
+					</div>
+					<div class="doneAround" id="check3">
+						<img class="check" src="img/done.svg" alt="check">
+					</div>
+				</div>
+				<div class="rechtsBalk">
+						<button class="workshop">
+							<h3>WORKSHOP</h3>
+						</button>
+				</div>
+			</div>
+				<div class="wrapPlayer">
+					<video id="player3" class="video-js" data-setup='{"fluid": true}'>
+						<source src="img/small.mp4" type="video/mp4">
+					</video>
+
+					<button class="buttonC rewind-btn" id="rewind3">
+						<img id="logoRewind" alt="logo" src="img/rewind.svg" />
+					</button>
+					<button class="buttonC player-btn" id="play3">
+						<img id="logoPlay" alt="logo" src="img/play.svg" />
+					</button>
+					<button class="buttonC done-btn" id="done3">
+						<img id="logoDone" alt="logo" src="img/done.svg" />
+					</button>
+					<h3>
+						Workshop 2: Vormen maken
+					</h3>
+				</div>
+
+			<div class="accordionHeader">
+				<div class="linksBalk">
+					<div>
+							<svg class='pijltje' xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+								<path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+							</svg>
+					</div>
+					<div id="algIntro">
+						<h3>Workshop 3: Beweging</h3>
+					</div>
+					<div class="doneAround" id="check4">
+						<img class="check" src="img/done.svg" alt="check">
+					</div>
+				</div>
+				<div class="rechtsBalk">
+						<button class="workshop">
+							<h3>WORKSHOP</h3>
+						</button>
+						<button class="download">
+								<img class="downloadImg" src="img/download.svg" alt="downloads">
+								<h3>DOWNLOADS</h3>
+						</button>
+				</div>
+			</div>
+				<div class="wrapPlayer">
+					<video id="player4" class="video-js" data-setup='{"fluid": true}'>
+						<source src="img/small.mp4" type="video/mp4">
+					</video>
+
+					<button class="buttonC rewind-btn" id="rewind4">
+							<img id="logoRewind" alt="logo" src="img/rewind.svg" />
+						</button>
+						<button class="buttonC player-btn" id="play4">
+							<img id="logoPlay" alt="logo" src="img/play.svg" />
+						</button>
+						<button class="buttonC done-btn" id="done4">
+							<img id="logoDone" alt="logo" src="img/done.svg" />
+						</button>
+					<h3>
+						Workshop 3: Beweging
+					</h3>
+				</div>
+
+			<div class="accordionHeader">
+				<div class="linksBalk">
+					<div>
+							<svg class='pijltje' xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+								<path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+							</svg>
+					</div>
+					<div id="algIntro">
+						<h3>Workshop 4: Variabelen gebruiken</h3>
+					</div>
+					<div class="doneAround" id="check5">
+						<img class="check" src="img/done.svg" alt="check">
+					</div>
+				</div>
+				<div class="rechtsBalk">
+						<button class="workshop">
+							<h3>WORKSHOP</h3>
+						</button>
+				</div>
+			</div>
+				<div class="wrapPlayer">
+					<video id="player5" class="video-js" data-setup='{"fluid": true}'>
+						<source src="img/small.mp4" type="video/mp4">
+					</video>
+
+					<button class="buttonC rewind-btn" id="rewind5">
+							<img id="logoRewind" alt="logo" src="img/rewind.svg" />
+						</button>
+						<button class="buttonC player-btn" id="play5">
+							<img id="logoPlay" alt="logo" src="img/play.svg" />
+						</button>
+						<button class="buttonC done-btn" id="done5">
+							<img id="logoDone" alt="logo" src="img/done.svg" />
+						</button>
+				    <h3>
+						Workshop 4: Variabelen gebruiken
+					</h3>
+				</div>
+		</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="wrap-grid" id="supportWrap">
+			<div class="deelText">
+				<h3>Support</h3>
+			</div>
+
+			<h1>Kom je er niet uit? <br>
+				Wij helpen je graag verder</h1>
+
+			<div class="clear"></div>
+
+			<div class="profielText">
+				<img id="profiel1" alt="profiel1" src="img/kal.png" />
+
+				<h3>Klaartje Klaassen</h3>
+				<h4>Hoofd contactpersoon
+				</h4>
+
+				<button class="profielButton">				
+						<p>EMAIL</p>					
+				</button>
+			</div>
+			<div class="profielText">
+				<img id="profiel2" alt="profiel2" src="img/giorgio.png" />
+
+				<h3>Klaartje Klaassen</h3>
+				<h4>Hoofd contactpersoon
+				</h4>
+
+				<button class="profielButton">					
+						<p>EMAIL</p>					
+				</button>
+			</div>
+			<div class="profielText">
+				<img id="profiel3" alt="profiel3" src="img/norman.png" />
+
+				<h3>Klaartje Klaassen</h3>
+				<h4>Hoofd contactpersoon
+				</h4>
+
+				<button class="profielButton">				
+						<p>EMAIL</p>				
+				</button>
+			</div>
+			<div class="profielText">
+				<img id="profiel4" alt="profiel4" src="img/alina.png" />
+
+				<h3>Klaartje Klaassen</h3>
+				<h4>Hoofd contactpersoon
+				</h4>
+
+				<button class="profielButton">				
+						<p>EMAIL</p>				
+				</button>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="footerImg">
+			<h1>Klaar voor de
+				volgende uitdaging?</h1>
+			<h2>In ons expertprogramma vind je lessen voor gevorderden </h2>
+			<button class="buttonB">
+					<p>KOM MAAR OP</p>
+			</button>
+		</div>
+		<div class="popup ani-fade">
+				<div class="popupCont">
+						<button class="remove">
+								<img id="logoSluit" alt="logo" src="img/sluit.svg" />
+						</button>
+					<h3>Je hebt de video bekeken!</h3>
+				</div>
+			</div>
+	</main>
+
+	<footer>
+
+		<div class="toggle">
+			<div class="toggleBall"></div>
+				<img id="moon" alt="moon" src="img/moon.svg" />
+				<img id="sun" alt="sun" src="img/sun.svg" />
+		</div>
+
+		<p>SWITCH THEME</p>
+
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
